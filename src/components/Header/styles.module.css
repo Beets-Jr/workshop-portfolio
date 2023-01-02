@@ -1,0 +1,31 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    font-size: 1.4rem;
+    padding: 0 2rem 0 2rem;
+    height: var(--nav-height);
+}
+
+.ul {
+    display: flex;
+    gap: 2rem;
+    color: var(--primary);
+    list-style: none;
+}
+
+.li {
+    font-weight: lighter;
+    cursor: pointer;
+
+    transition: filter 0.2s;
+}
+
+.li:hover {
+    filter: brightness(0.9);
+}
+
+.active {
+    font-weight: bolder;
+}
