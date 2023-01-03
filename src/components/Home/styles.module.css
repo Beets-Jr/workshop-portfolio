@@ -1,3 +1,45 @@
 .section{
     padding-block: 0;
 }
+
+.content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.titles h1 {
+    font-size: 4.5rem;
+    line-height: 5.5rem;
+    font-weight: 700;
+}
+
+.titles p {
+    font-size: 1.5rem;
+    line-height: 2.25rem;
+}
+
+.socials {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+
+    transition: all 0.2s ease;
+}
+
+.socials svg:hover {
+  transform: scale(1.1);
+}
+
+.socials svg {
+  width: 3rem;
+  height: 3rem;
+  color: var(--primary)
+}
+
+.mainSkills {
+    display: flex;
+    gap: 2rem;
+
+    justify-content: center;
+}

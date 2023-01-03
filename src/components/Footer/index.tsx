@@ -1,6 +1,6 @@
 import { Avatar } from "../Avatar"
 
-import { BsInstagram, BsLinkedin, BsGithub } from "react-icons/bs"
+import { BsLinkedin, BsGithub } from "react-icons/bs"
 
 import styles from "./styles.module.css"
 
@@ -19,9 +19,6 @@ export function Footer() {
       <div className={styles.socials}>
         <a href="">
           <BsLinkedin />
-        </a>
-        <a href="">
-          <BsInstagram />
         </a>
         <a href="">
           <BsGithub />
