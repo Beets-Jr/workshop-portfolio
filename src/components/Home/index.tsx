@@ -10,7 +10,7 @@ import { BsLinkedin, BsGithub } from "react-icons/bs"
 
 export function Home() {
   return (
-    <section className={styles.section}>
+    <section className={styles.section} id='home'>
       <div className={styles.content}>
         <div className={styles.titles}>
           <h1>Hello, I’m <br/> Beets Junior</h1>

@@ -18,3 +18,9 @@
   font-weight: 500;
   font-size: 0.9rem;
 }
+
+@media (max-width: 425px) {
+  .container {
+    width: 200px;
+  }
+}

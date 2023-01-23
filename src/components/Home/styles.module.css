@@ -1,11 +1,8 @@
-.section{
-    padding-block: 0;
-}
-
 .content {
     display: flex;
     align-items: center;
     justify-content: center;
+    margin: 5rem;
 }
 
 .titles h1 {
@@ -40,6 +37,52 @@
 .mainSkills {
     display: flex;
     gap: 2rem;
-
+    flex-wrap: wrap;
     justify-content: center;
+}
+
+.image img{
+    height: 600px;
+    width: 600px;
+}
+
+@media(max-width: 1024px) {
+    .content {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .socials {
+        flex-direction: row;
+    }
+
+    .image img {
+        height: 400px;
+        width: 400px;
+    }
+
+    .titles h1 {
+        font-size: 3rem;
+        line-height: 3rem;
+        font-weight: 700;
+    }
+
+    
+    .titles p {
+        font-size: 1.3rem;
+        line-height: 1.5rem;
+        margin-top: 2rem;
+    }
+}
+
+@media (max-width: 425px) {
+    .image img {
+        height: 300px;
+        width: 300px;
+    }
+
+    .socials svg {
+        width: 2rem;
+        height: 2rem;
+    }
 }

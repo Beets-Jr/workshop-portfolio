@@ -11,7 +11,7 @@ import styles from "./styles.module.css"
 
 export function AboutMe() {
   return (
-    <section className={styles.section}>
+    <section className={styles.section} id='aboutme'>
       <h2>About Me</h2>
       <div className={styles.content}>
         <div className={styles.avatar}>

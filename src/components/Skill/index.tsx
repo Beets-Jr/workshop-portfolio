@@ -1,4 +1,4 @@
-import { ProgressBar } from "../ProgressBar"
+import { ProgressBar } from "./ProgressBar"
 
 import styles from "./styles.module.css"
 
@@ -13,8 +13,6 @@ export function Skill({img, progress}: skillProps) {
       <img src={img}/>
       <div className={styles.progress}>
         <ProgressBar progress={progress} />
-        {/* <div className={styles.barBall}>
-        </div> */}
       </div>
     </div>
   )

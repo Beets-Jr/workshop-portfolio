@@ -10,6 +10,7 @@ import "./styles/App.css";
 function App() {
   return (
     <>
+     
       <Header />
       <Home />
       <AboutMe />

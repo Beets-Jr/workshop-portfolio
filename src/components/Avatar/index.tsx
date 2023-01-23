@@ -1,7 +1,11 @@
 import avatar from "../../assets/avatar.png"
 
 export function Avatar({width = "65px", height="65px"}) {
+  const scrollTo = () => {
+    window.scrollTo(0, 0);
+  }
+
   return (
-    <img src={avatar} width={width} height={height} alt="Avatar"/>
+    <img onClick={() => scrollTo()} src={avatar} width={width} height={height} style={{cursor: 'pointer'}} alt="Avatar"/>
   )
 }
