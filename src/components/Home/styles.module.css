@@ -2,7 +2,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    margin: 5rem;
+    /* margin: 5rem; */
 }
 
 .titles h1 {
@@ -42,18 +42,20 @@
 }
 
 .image img{
-    height: 600px;
-    width: 600px;
+    height: 800px;
+    width: 800px;
 }
 
 @media(max-width: 1024px) {
     .content {
         flex-direction: column;
         text-align: center;
+        margin-top: 10%;
     }
 
     .socials {
         flex-direction: row;
+        margin-bottom: 2rem;
     }
 
     .image img {
